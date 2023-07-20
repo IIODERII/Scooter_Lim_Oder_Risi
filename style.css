@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+#principale{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 75px;
+    border-radius: 3%;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+header , nav{
+    color: lime;
+    padding: 8px;
+    text-align: center;
+}
+
+nav{
+    background-color: lime;
+}
+
+section{
+    color: white;
+    margin-top: 2%;
+}
+
+h3{
+    display: inline-block;
+}
+
+#half{
+    background-color: rgb(250, 185, 66);
+    width: 30%;
+    color: rgb(250, 185, 66);
+    border-radius: 10%;
+}
+
+#full{
+    background-color: rgb(27, 166, 27);
+    width: 50%;
+    color: rgb(27, 166, 27);
+    border-radius: 10%;
+}
+
+#low{
+    background-color: rgb(250, 66, 66);
+    width: 15%;
+    color: rgb(250, 66, 66);
+    border-radius: 10%;
+}
+
+section>div:first-of-type::before{
+    content: "\21A6";
+}
